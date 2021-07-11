@@ -1,14 +1,22 @@
-<div class="container">
-  <p>
-    <mat-toolbar class="greenhouse" role="heading">
-      <button
-        mat-icon-button
-        class="example-icon"
-        aria-label="Example icon-button with menu icon"
-      >
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span>The greenhouse</span>
-    </mat-toolbar>
-  </p>
-</div>
+<mat-drawer-container autosize>
+  <mat-drawer #drawer class="sideNav-content" mode="side">
+    <span>Test sideNav</span>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="container">
+      <mat-toolbar class="greenhouse" role="heading">
+        <button
+          (click)="drawer.toggle()"
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with menu icon"
+        >
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>The greenhouse</span>
+      </mat-toolbar>
+
+      <!-- Page content goes here! ß-->
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
