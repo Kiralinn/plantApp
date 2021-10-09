@@ -1,4 +1,27 @@
-.greenhouse {
-    background-color: #40916C;
-    color: #f1fff3;
+.sideNav-content {
+  width: 8rem;
 }
+
+.menu-bar {
+  background-color: #40916c;
+  color: #f1fff3;
+}
+.page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .plant-container {
+    background-color: #f1fff3;
+    margin: 10px;
+    min-width: 10rem;
+    height: 15rem;
+    border-radius: 10%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+    .page-content {
+      flex-direction: column;
+    }
+  }
