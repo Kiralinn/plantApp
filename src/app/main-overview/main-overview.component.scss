@@ -1,5 +1,25 @@
 .sideNav-content {
-  width: 8rem;
+  width: 40%;
+  background-color: #2d664c;
+  padding: 5px;
+
+  .mat-divider {
+    background-color: #40916c;
+  }
+
+  .nav-button {
+    border-radius: 10px;
+  }
+  .nav-item {
+    display: flex;
+    color: #adceb2;
+    padding: 5px 10px 5px 10px;
+    &:hover {
+      color: #e9ffec;
+      background-color: #40916c;
+      border-radius: 15px;
+    }
+  }
 }
 
 .menu-bar {
@@ -21,7 +41,7 @@
 }
 
 @media only screen and (max-width: 300px) {
-    .page-content {
-      flex-direction: column;
-    }
+  .page-content {
+    flex-direction: column;
   }
+}
