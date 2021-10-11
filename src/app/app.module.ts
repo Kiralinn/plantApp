@@ -10,9 +10,10 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatDividerModule } from "@angular/material/divider";
+import { PlantDetailComponent } from './plant-detail/plant-detail.component';
 
 @NgModule({
-  declarations: [AppComponent, MainOverviewComponent],
+  declarations: [AppComponent, MainOverviewComponent, PlantDetailComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

@@ -12,4 +12,7 @@ export class MainOverviewComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openDetailPage() {
+    console.log("hello")
+  }
 }
