@@ -1,4 +1,8 @@
 # PlantsApp
+Use Git clone to get the project.
+Run npm i
+Run ng serve to start the application!
+Enjoy :) 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
