@@ -1,35 +1,9 @@
-<mat-drawer-container autosize>
-  <mat-drawer #drawer class="sideNav-content" mode="side">
-    <span class="nav-item">Greenhouse</span>
-    <mat-divider class="mat-divider"></mat-divider>
-    <span class="nav-item">Plant care </span>
-    <mat-divider class="mat-divider"></mat-divider>
-    <span class="nav-item">Propagation station</span>
-    <mat-divider class="mat-divider"></mat-divider>
-    <span class="nav-item">Knowledge centre</span>
-  </mat-drawer>
-  <mat-drawer-content>
-    <div class="container">
-      <mat-toolbar class="menu-bar" role="heading">
-        <button
-          (click)="drawer.toggle()"
-          mat-icon-button
-          class="example-icon"
-          aria-label="Example icon-button with menu icon"
-        >
-          <mat-icon>menu</mat-icon>
-        </button>
-        <span>The greenhouse</span>
-      </mat-toolbar>
-
-      <div class="page-content">
-        <div class="plant-detail">
-          <p>Plant Name</p>
-          <p>Decription</p>
-          <p>View details</p>
-        </div>
-        <div class="plant-container"></div>
-      </div>
-    </div>
-  </mat-drawer-content>
-</mat-drawer-container>
+<app-navigation></app-navigation>
+<div class="page-content">
+  <div class="plant-detail">
+    <p>Plant Name</p>
+    <p>Decription</p>
+    <p>View details</p>
+  </div>
+  <div class="plant-container"></div>
+</div>

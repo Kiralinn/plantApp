@@ -11,9 +11,10 @@ import { MatButtonModule } from "@angular/material/button";
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatDividerModule } from "@angular/material/divider";
 import { PlantDetailComponent } from './plant-detail/plant-detail.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
-  declarations: [AppComponent, MainOverviewComponent, PlantDetailComponent],
+  declarations: [AppComponent, MainOverviewComponent, PlantDetailComponent, NavigationComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
